@@ -1,6 +1,6 @@
 import "./SideNav.css";
 import logo from "../../assets/Icons/logo.svg";
-// import home from "../../assets/Icons/shape.svg";
+import home from "../../assets/Icons/home.svg";
 import content from "../../assets/Icons/contentview.svg";
 import settings from "../../assets/Icons/settings.svg";
 import logout from "../../assets/Icons/vector.svg";
@@ -27,7 +27,9 @@ const SideNav = () => {
 					<img className="logo" src={logo} alt="logo" />
 				</a>
 
-				<a href="#">{/* <img src={home} alt="home-button" /> */}</a>
+				<a href="#">
+					<img src={home} alt="home-button" />
+				</a>
 
 				<a href="#">
 					<img src={content} alt="home-button" />
