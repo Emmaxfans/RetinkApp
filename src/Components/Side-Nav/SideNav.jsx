@@ -23,7 +23,9 @@ const SideNav = () => {
 					onClick={toggleNavbar}
 				/>
 
-				<a href="#">{/* <img className="logo bsrc={logo} alt="logo" /> */}</a>
+				<a href="#">
+					<img className="logo" src={logo} alt="logo" />
+				</a>
 
 				<a href="#">
 					<img src={home} alt="home-button" />
