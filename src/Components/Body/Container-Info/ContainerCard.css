@@ -29,7 +29,7 @@
   }
 
   .container-contents:hover{
-    background-color: rgba(117, 77, 232, 1);
+    background-color: rgba(234, 228, 252, 1);
   }
 
   @media screen and (max-width: 650px) {
