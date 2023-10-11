@@ -6,7 +6,7 @@ import Body from "../Body/Body";
 const BodyLayout = () => {
 	return (
 		<div className="bodylayout">
-			{/* <Nav /> */}
+			<Nav />
 			<Hero />
 			<Body />
 		</div>
