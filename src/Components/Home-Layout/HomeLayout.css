@@ -1,0 +1,12 @@
+.homelayout{
+    display: flex;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+.homelayout{
+    display: block;
+}
+    
+}

@@ -1,0 +1,10 @@
+.bodylayout{
+    width: 95%;
+}
+
+@media screen and (max-width: 768px) {
+.bodylayout{
+    width: 100%;
+}
+    
+}
