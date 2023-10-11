@@ -1,6 +1,6 @@
 import "./Hero.css";
 import cube from "../../assets/new/Cube.svg";
-// import blend from "../../assets/icons/blend.svg";
+import blend from "../../assets/icons/blend.svg";
 // import circle from "../../assets/icons/circle.svg";
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
 
 				<div className="hero2">
 					{/* <div className="hero2-sub1"> */}
-					{/* <img className="hero2-sub1" src={blend} alt="blend" /> */}
+					<img className="hero2-sub1" src={blend} alt="blend" />
 					{/* </div> */}
 					<div className="hero2-sub2">
 						<p>
