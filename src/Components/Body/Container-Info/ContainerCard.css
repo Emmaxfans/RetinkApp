@@ -42,10 +42,25 @@
         display: block;
     }
 
+    .container-card h2{
+      text-align: center;
+    }
+
     .container-contents{
         justify-content: center;
         width: calc(90% - 20px);
+        height: 200px;
     }
+
+    .container-contents h3{
+      font-size: 30px;
+    }
+
+    .container-contents p{
+      font-size: 20px;
+    }
+
+
 }
 
   

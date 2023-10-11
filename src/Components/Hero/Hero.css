@@ -178,13 +178,13 @@
 		width: 100%;
 	}
 	.hero2-sub2 {
-		/* display: none;hg */
+		display: none;
 	}
 
 	.hero2-sub1 {
-		width: 150px;
-		top: 120px;
-		left: 50%;
+		width: 200px;
+		top: 0px;
+		left: 45%;
 	}
 
 	.hero1-sub2 {
@@ -193,8 +193,29 @@
 		left: -80%;
 	}
 
+	.hero2-sub4 {
+		position: absolute;
+		top: 190px;
+		left: 73%;
+		width: 100px;
+		/* height: 100px; */
+		/* transform: rotate(-85deg); */
+	}
+
+	.hero2-sub3 {
+		position: absolute;
+		top: 5px;
+		left: 32%;
+		width: 170px;
+		height: auto;
+	}
+
+	.hero2-sub3 input{
+		padding: 13px 5px;
+	}
+
 	/* Rotate the image by a specific angle */
-	img {
-		/* transform: rotate(45deg); */
+	.hero2-sub4 img {
+		
 	}
 }
