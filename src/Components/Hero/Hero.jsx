@@ -10,7 +10,7 @@ const Hero = () => {
 				<div className="hero1">
 					<div className="hero1-sub1">
 						<h2>Hey James!</h2>
-						<p>Lets create something awesome today ✨💫</p>
+						<p>Lets create something awesome today ✨</p>
 						<button className="hero-button">start creating</button>
 					</div>
 

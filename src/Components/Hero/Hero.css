@@ -32,7 +32,7 @@
     position: absolute;
     top: 50px;
     /* left: 70px; */
-    left: 30%;
+    left: 45%;
 }
 
 .hero-button{
@@ -78,17 +78,16 @@ height: fit-content;
 
 }
 
-.hero2-sub2{
-    position: relative;
+.hero2-sub2 {
+    position: absolute;
     top: 180px;
-right: 520px;
-padding: 0 10px;
+    left: 55%;
+    padding: 0 10px;
     width: 409px;
     height: 80px;
     border-radius: 10px;
-    background: linear-gradient(92.19deg, #e6e6e6dd 33.39%, rgba(179, 179, 179, 0) 88.97%),
-linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-z-index: 100;
+    background: linear-gradient(92.19deg, #e6e6e6dd 33.39%, rgba(179, 179, 179, 0) 88.97%), linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    z-index: 100;
 }
 
 .hero2-sub2 p{
@@ -102,9 +101,9 @@ background-color: transparent;
 }
 
 .hero2-sub3{
-    position: relative;
-    top: 100px;
-    right: 660px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
     width: 170px;
     height: 100px;
 
@@ -136,12 +135,11 @@ left: 30px;
 } */
 
 .hero2-sub4 {
-    position: relative;
-    top: 290px;
-    right: 820px;
+    position: absolute;
+    top: 240px;
+    left: 85%;
     width: 100px;
     height: 100px;
-
 }
 
   @media screen  and (min-width: 620px) and (max-width:920px){
