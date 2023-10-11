@@ -1,5 +1,5 @@
 import "./Hero.css";
-import cube from "../../assets/icons/cube.svg";
+import cube from "../../assets/new/Cube.svg";
 // import blend from "../../assets/icons/blend.svg";
 // import circle from "../../assets/icons/circle.svg";
 
