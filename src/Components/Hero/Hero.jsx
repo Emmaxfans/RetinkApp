@@ -1,7 +1,7 @@
 import "./Hero.css";
-import cube from "../../assets/new/Cube.svg";
-import blend from "../../assets/icons/blend.svg";
-// import circle from "../../assets/icons/circle.svg";
+import cube from "../../assets/Icons/Cube.svg";
+import blend from "../../assets/Icons/blend.svg";
+import circle from "../../assets/Icons/circle.svg";
 
 const Hero = () => {
 	return (
@@ -37,7 +37,7 @@ const Hero = () => {
 						<label> Zara ventures </label>
 						<input type="text" />
 					</div>
-					{/* <img className="hero2-sub4" src={circle} alt="circle" /> */}
+					<img className="hero2-sub4" src={circle} alt="circle" />
 				</div>
 			</div>
 		</>

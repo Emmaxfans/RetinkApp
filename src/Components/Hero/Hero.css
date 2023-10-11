@@ -1,130 +1,129 @@
-.hero{
-    display: flex;
-    height: 290px;
-    background-color: rgba(234, 228, 252, 1);
-    border-radius: 20px;
-    margin: 0 10px;
-    margin-top: 50px;
+.hero {
+	display: flex;
+	height: 290px;
+	background-color: rgba(234, 228, 252, 1);
+	border-radius: 20px;
+	margin: 0 10px;
+	margin-top: 50px;
 }
 
-.hero1{
-    display: flex;
-    width: 50%;
+.hero1 {
+	display: flex;
+	width: 50%;
 }
 
-.hero1-sub1{
-    padding: 20px;
+.hero1-sub1 {
+	padding: 20px;
 }
 
-.hero1-sub1 h2{
-    font-family: Moranga;
-    font-size: 38px;
-    /* font-weight: 500; */   
+.hero1-sub1 h2 {
+	font-family: Moranga;
+	font-size: 38px;
+	/* font-weight: 500; */
 }
-.hero1-sub1 p{
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 23px;    
+.hero1-sub1 p {
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 23px;
 }
 
 .hero1-sub2 {
-    position: absolute;
-    top: 50px;
-    /* left: 70px; */
-    left: 45%;
+	position: absolute;
+	top: 50px;
+	/* left: 70px; */
+	left: 45%;
 }
 
-.hero-button{
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(117, 77, 232, 1);
-    font-size: 20px;
-    padding: 10px 30px;
-    border: 1.5px solid rgba(117, 77, 232, 1);
-    border-radius: 20px;
-    margin: 20px 0;
+.hero-button {
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(117, 77, 232, 1);
+	font-size: 20px;
+	padding: 10px 30px;
+	border: 1.5px solid rgba(117, 77, 232, 1);
+	border-radius: 20px;
+	margin: 20px 0;
 }
 
-.hero-button:hover{
-    background-color: rgba(117, 77, 232, 1);
-    color: rgba(255, 255, 255, 1);
+.hero-button:hover {
+	background-color: rgba(117, 77, 232, 1);
+	color: rgba(255, 255, 255, 1);
 }
 
-.hero2{
-    display: flex;
-    width: 50%;
-    background-image: url(../../assets/icons/blend.svg);
-    background: no-repeat;
-    margin-top: -100px;
-
+.hero2 {
+	display: flex;
+	width: 50%;
+	background-image: url(../../assets/Icons/blend.svg);
+	background: no-repeat;
+	margin-top: -100px;
 }
 
 .hero2-sub1 {
-    position: absolute;
-    top: 51px;
-    /* right: 70px; */
-    /* left: 60px; */
-    width: 456.65px;
-    /* height: 180px; */
+	position: absolute;
+	top: 51px;
+	/* right: 70px; */
+	/* left: 60px; */
+	width: 456.65px;
+	/* height: 180px; */
 }
 
-.hero2-sub1 img{
-    /* position: relative; */
-    /* width: 586.65px; */
-/* height: 312.25px; */
-height: fit-content;
-/* top: -70px; */
-/* right: 60px; */
-
+.hero2-sub1 img {
+	/* position: relative; */
+	/* width: 586.65px; */
+	/* height: 312.25px; */
+	height: fit-content;
+	/* top: -70px; */
+	/* right: 60px; */
 }
 
 .hero2-sub2 {
-    position: absolute;
-    top: 180px;
-    left: 55%;
-    padding: 0 10px;
-    width: 409px;
-    height: 80px;
-    border-radius: 10px;
-    background: linear-gradient(92.19deg, #e6e6e6dd 33.39%, rgba(179, 179, 179, 0) 88.97%), linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-    z-index: 100;
+	position: absolute;
+	top: 180px;
+	left: 55%;
+	padding: 0 10px;
+	width: 409px;
+	height: 80px;
+	border-radius: 10px;
+	background: linear-gradient(
+			92.19deg,
+			#e6e6e6dd 33.39%,
+			rgba(179, 179, 179, 0) 88.97%
+		),
+		linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+	z-index: 100;
 }
 
-.hero2-sub2 p{
-    width: 400px;
-    font-family: Raleway;
-font-size: 14px;
-font-weight: 500;
-background-color: transparent;
-
-
+.hero2-sub2 p {
+	width: 400px;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 500;
+	background-color: transparent;
 }
 
-.hero2-sub3{
-    position: absolute;
-    top: 60px;
-    right: 50px;
-    width: 170px;
-    height: 100px;
-
+.hero2-sub3 {
+	position: absolute;
+	top: 60px;
+	right: 50px;
+	width: 170px;
+	height: 100px;
 }
 
-.hero2-sub3 input{
-    border-radius: 5px;
-    border: none;
-    padding: 10px 5px;
+.hero2-sub3 input {
+	border-radius: 5px;
+	border: none;
+	padding: 10px 5px;
 }
 
-.hero2-sub3 label{
-position: relative;
-top: 27px;
-left: 30px;
-
+.hero2-sub3 label {
+	position: relative;
+	top: 27px;
+	left: 30px;
 }
 
-.hero2-sub3 label::after{
-    content: url(../../assets/icons/ArrowDown.svg);
-    margin-left: 10px;
+.hero2-sub3 label::after {
+	content: url(../../assets/Icons/ArrowDown.svg);
+	margin-left: 10px;
 }
 
 /* .hero2-sub4{
@@ -135,69 +134,67 @@ left: 30px;
 } */
 
 .hero2-sub4 {
-    position: absolute;
-    top: 240px;
-    left: 85%;
-    width: 100px;
-    height: 100px;
+	position: absolute;
+	top: 240px;
+	left: 85%;
+	width: 100px;
+	height: 100px;
 }
 
-  @media screen  and (min-width: 620px) and (max-width:920px){
-    .hero{
-        display: flex;
-        height: 290px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        margin: 0 0px;
-        margin-top: 0px;
-    }
+@media screen and (min-width: 620px) and (max-width: 920px) {
+	.hero {
+		display: flex;
+		height: 290px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		margin: 0 0px;
+		margin-top: 0px;
+	}
 
-    .hero2-sub2{
-        /* display: none; */
-    }
+	.hero2-sub2 {
+		/* display: none; */
+	}
 
-    .hero2-sub1{
-       width: 400px;
-       top: 70px;     
-    }
-  }
+	.hero2-sub1 {
+		width: 400px;
+		top: 70px;
+	}
+}
 
-  @media screen and (min-width: 280px) and (max-width:480px){
+@media screen and (min-width: 280px) and (max-width: 480px) {
+	.hero {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 0px;
+		/* margin-top: 0; */
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.hero1 {
+		width: 100%;
+	}
 
-    .hero{
-        display: flex;
-        flex-direction: column-reverse;
-        margin: 0 0px;
-        /* margin-top: 0; */
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-    }
-    .hero1{
-        width: 100%;
-    }
+	.hero2 {
+		width: 100%;
+	}
+	.hero2-sub2 {
+		/* display: none;hg */
+	}
 
-    .hero2{
-        width: 100%;
-    }
-    .hero2-sub2{
-        /* display: none;hg */
-    }
+	.hero2-sub1 {
+		width: 150px;
+		top: 120px;
+		left: 50%;
+	}
 
-    .hero2-sub1 {
-        width: 150px;
-        top: 120px;
-        left: 50%;
-    }
+	.hero1-sub2 {
+		position: relative;
+		top: 0px;
+		left: -80%;
+	}
 
-    .hero1-sub2 {
-        position: relative;
-        top: 0px;
-        left: -80%;
-    }
-
-    /* Rotate the image by a specific angle */
-img {
-    /* transform: rotate(45deg); */
-  }
-  
-  }
+	/* Rotate the image by a specific angle */
+	img {
+		/* transform: rotate(45deg); */
+	}
+}
