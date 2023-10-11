@@ -1,5 +1,5 @@
 import "./SideNav.css";
-import logo from "../../assets/Icons/logo.svg";
+// import logo from "../../assets/Icons/logo.svg";
 import home from "../../assets/Icons/shape.svg";
 import content from "../../assets/Icons/contentview.svg";
 import settings from "../../assets/Icons/settings.svg";
@@ -23,9 +23,7 @@ const SideNav = () => {
 					onClick={toggleNavbar}
 				/>
 
-				<a href="#">
-					<img className="logo" src={logo} alt="logo" />
-				</a>
+				<a href="#">{/* <img className="logo" src={logo} alt="logo" /> */}</a>
 
 				<a href="#">
 					<img src={home} alt="home-button" />
