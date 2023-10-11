@@ -10,8 +10,8 @@ const ContainerCard = () => {
 				{dataSet1.map((items, index) => (
 					<div key={index} className="container-contents">
 						<div className="header-img">
-							<img src={items.img1} alt={items.alt1} />
-							<img src={items.img2} alt={items.alt2} />
+							{/* <img src={items.img1} alt={items.alt1} /> */}
+							{/* <img src={items.img2} alt={items.alt2} /> */}
 						</div>
 						<h3>{items.title}</h3>
 						<p>{items.description}</p>
