@@ -1,5 +1,5 @@
 import "./SideNav.css";
-import logo from "../../assets/icons/logo.svg";
+import logo from "../../assets/icons/logo2.svg";
 import home from "../../assets/icons/shape.svg";
 import content from "../../assets/icons/contentview.svg";
 import settings from "../../assets/icons/settings.svg";
