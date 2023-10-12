@@ -2,8 +2,8 @@ import "./Nav.css";
 // import alert from "../../assets/Icons/alert.svg";
 // import search from "../../assets/Icons/search.svg";
 // import c20 from "../../assets/Icons/c20.svg";
-import calender from "../../assets/Icons/calender.svg";
-import profile from "../../assets/Icons/profile.svg";
+// import calender from "../../assets/Icons/calender.svg";
+// import profile from "../../assets/Icons/profile.svg";
 import filter1 from "../../assets/Icons/filter1.svg";
 import close from "../../assets/Icons/Remove Round.svg";
 
@@ -34,9 +34,9 @@ const Nav = () => {
 				</div>
 
 				<div className="nav-div2">
-					<img src={calender} alt="img1" />
+					{/* <img src={calender} alt="img1" /> */}
 					{/* <img src={alert} alt="img1" /> */}
-					<img src={profile} alt="profile-img" />
+					{/* <img src={profile} alt="profile-img" /> */}
 				</div>
 			</div>
 		</>
