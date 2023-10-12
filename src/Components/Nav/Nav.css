@@ -164,9 +164,15 @@ width: 75px;
     .sub1{
         position: absolute;
         width: 90%;
+        top: -35px;
         background-color: #ffffff;
         border: 1px solid rgba(241, 237, 253, 1);
         z-index: 150;
+    }
+
+    .sub1 p{
+        font-size: 15px;
+        width: auto;
     }
 
     .nav-div2 img:not(:nth-child(3)){
