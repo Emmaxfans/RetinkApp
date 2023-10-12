@@ -1,11 +1,11 @@
 import "./SideNav.css";
-import logo from "../../assets/Icons/logo.svg";
-import home from "../../assets/Icons/home.svg";
-import content from "../../assets/Icons/contentview.svg";
-import settings from "../../assets/Icons/settings.svg";
-import logout from "../../assets/Icons/vector.svg";
-import menu from "../../assets/Icons/menu1.svg";
-import close from "../../assets/Icons/close.svg";
+import logo from "../../assets/Iconss/logo.svg";
+import home from "../../assets/Iconss/home.svg";
+import content from "../../assets/Iconss/contentview.svg";
+import settings from "../../assets/Iconss/settings.svg";
+import logout from "../../assets/Iconss/vector.svg";
+import menu from "../../assets/Iconss/menu1.svg";
+import close from "../../assets/Iconss/close.svg";
 import { useState } from "react";
 
 const SideNav = () => {
@@ -35,7 +35,7 @@ const SideNav = () => {
 					<img src={content} alt="home-button" />
 				</a>
 
-				{/* Bottom 2 Icons */}
+				{/* Bottom 2 Iconss */}
 
 				<a href="#">
 					<img className="settings" src={settings} alt="settings" />
