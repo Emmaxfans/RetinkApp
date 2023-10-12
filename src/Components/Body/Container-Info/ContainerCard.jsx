@@ -1,6 +1,8 @@
 import React from "react";
 import "./ContainerCard.css";
 import dataSet1, { dataSet2 } from "./Containerdata";
+import img1 from "../../../assets/Iconss/pen.svg";
+import img2 from "../../../assets/Iconss/arrow.svg";
 
 const ContainerCard = () => {
 	const dataSet1 = [
@@ -107,8 +109,8 @@ const ContainerCard = () => {
 				{dataSet1.map((items, index) => (
 					<div key={index} className="container-contents">
 						<div className="header-img">
-							<img src={items.img1} alt={items.alt1} />
-							<img src={items.img2} alt={items.alt2} />
+							<img src={img1} alt={items.alt1} />
+							<img src={img2} alt={items.alt2} />
 						</div>
 						<h3>{items.title}</h3>
 						<p>{items.description}</p>
@@ -121,8 +123,8 @@ const ContainerCard = () => {
 				{dataSet2.map((items, index) => (
 					<div key={index} className="container-contents">
 						<div className="header-img">
-							<img src={items.img1} alt={items.alt1} />
-							<img src={items.img2} alt={items.alt2} />
+							<img src={img1} alt={items.alt1} />
+							<img src={img2} alt={items.alt2} />
 						</div>
 						<h3>{items.title}</h3>
 						<p>{items.description}</p>
