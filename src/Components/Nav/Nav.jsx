@@ -1,12 +1,11 @@
 import "./Nav.css";
 import search from "../../assets/Iconss/search1.svg";
-// import search from "../../assets/Iconss/search.svg";
-// import alert from "../../assets/Iconss/alert.svg";
-// import c20 from "../../assets/Iconss/c20.svg";
-// import calender from "../../assets/Iconss/calender.svg";
-// import profile from "../../assets/Iconss/profile.svg";
-// import filter1 from "../../assets/Iconss/filter1.svg";
-// import close from "../../assets/Iconss/close2.svg";
+import alert from "../../assets/Iconss/alert1.svg";
+import c20 from "../../assets/Iconss/c201.svg";
+import calender from "../../assets/Iconss/calender1.svg";
+import profile from "../../assets/Iconss/profile1.svg";
+import filter1 from "../../assets/Iconss/filter.svg";
+import close from "../../assets/Iconss/close1.svg";
 
 import Button from "../Button/Button";
 
@@ -20,8 +19,8 @@ const Nav = () => {
 							<img src={search} alt="search-button" />
 							<p>Search for templates, projects, etc</p>
 							{/* <div className="imgx"> */}
-							{/* <img src={filter1} alt="filter-button" />
-							<img src={close} alt="close-button" /> */}
+							<img src={filter1} alt="filter-button" />
+							<img src={close} alt="close-button" />
 							{/* </div> */}
 						</div>
 					</div>
@@ -33,14 +32,16 @@ const Nav = () => {
 						{/* <Button /> */}
 					</div>
 
-					<div className="nav-sub3">{/* <img src={c20} alt="c20" /> */}</div>
+					<div className="nav-sub3">
+						<img src={c20} alt="c20" />
+					</div>
 				</div>
 
 				{/* <div className="div-2"> */}
 				<div className="nav-div2">
-					{/* <img src={calender} alt="img1" />
+					<img src={calender} alt="img1" />
 					<img src={alert} alt="img1" />
-					<img className="profile" src={profile} alt="profile-img" /> */}
+					<img className="profile" src={profile} alt="profile-img" />
 					{/* </div> */}
 				</div>
 			</div>
