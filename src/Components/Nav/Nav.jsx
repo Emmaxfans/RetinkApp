@@ -1,9 +1,11 @@
 import "./Nav.css";
 // import alert from "../../assets/Icons/alert.svg";
-import search from "../../assets/Icons/search.svg";
-import c20 from "../../assets/Icons/c20.svg";
+// import search from "../../assets/Icons/search.svg";
+// import c20 from "../../assets/Icons/c20.svg";
 import calender from "../../assets/Icons/calender.svg";
 import profile from "../../assets/Icons/profile.svg";
+import filter1 from "../../assets/Icons/filter1.svg";
+import close from "../../assets/Icons/Remove Round.svg";
 
 import Button from "../Button/Button";
 
@@ -14,8 +16,10 @@ const Nav = () => {
 				<div className="nav-div1">
 					<div className="nav-sub1">
 						<div className="sub1">
-							<img src={search} alt="search-button" />
+							{/* <img src={search} alt="search-button" /> */}
 							<p>Search for templates, projects, etc</p>
+							<img src={filter1} alt="filter-button" />
+							<img src={close} alt="close-button" />
 						</div>
 					</div>
 
@@ -26,9 +30,7 @@ const Nav = () => {
 						{/* <Button /> */}
 					</div>
 
-					<div className="nav-sub3">
-						<img src={c20} alt="c20" />
-					</div>
+					<div className="nav-sub3">{/* <img src={c20} alt="c20" /> */}</div>
 				</div>
 
 				<div className="nav-div2">
