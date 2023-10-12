@@ -189,7 +189,7 @@
 
 	.hero1-sub2 {
 		position: relative;
-		top: 0px;
+		top: -80px;
 		left: -80%;
 	}
 
@@ -205,9 +205,13 @@
 	.hero2-sub3 {
 		position: absolute;
 		top: 5px;
-		left: 32%;
+		left: 30%;
 		width: 170px;
 		height: auto;
+	}
+
+	.hero-button{
+		display: none;
 	}
 
 	.hero2-sub3 input{

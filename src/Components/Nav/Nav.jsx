@@ -1,9 +1,9 @@
 import "./Nav.css";
-// import alert from "../../assets/Icons/alert.svg";
-// import search from "../../assets/Icons/search.svg";
-// import c20 from "../../assets/Icons/c20.svg";
-// import calender from "../../assets/Icons/calender.svg";
-// import profile from "../../assets/Icons/profile.svg";
+import alert from "../../assets/Icons/alert.svg";
+import search from "../../assets/Icons/search.svg";
+import c20 from "../../assets/Icons/c20.svg";
+import calender from "../../assets/Icons/calender.svg";
+import profile from "../../assets/Icons/profile.svg";
 import filter1 from "../../assets/Icons/filter1.svg";
 import close from "../../assets/Icons/Remove Round.svg";
 
@@ -16,27 +16,33 @@ const Nav = () => {
 				<div className="nav-div1">
 					<div className="nav-sub1">
 						<div className="sub1">
-							{/* <img src={search} alt="search-button" /> */}
+							<img src={search} alt="search-button" />
 							<p>Search for templates, projects, etc</p>
+							{/* <div className="imgx"> */}
 							<img src={filter1} alt="filter-button" />
 							<img src={close} alt="close-button" />
+							{/* </div> */}
 						</div>
 					</div>
 
 					<div className="nav-space"></div>
 
 					<div className="nav-sub2">
-						<button>start</button>
+						<button className="btn"> Create Content </button>
 						{/* <Button /> */}
 					</div>
 
-					<div className="nav-sub3">{/* <img src={c20} alt="c20" /> */}</div>
+					<div className="nav-sub3">
+						<img src={c20} alt="c20" />
+					</div>
 				</div>
 
+				{/* <div className="div-2"> */}
 				<div className="nav-div2">
-					{/* <img src={calender} alt="img1" /> */}
-					{/* <img src={alert} alt="img1" /> */}
-					{/* <img src={profile} alt="profile-img" /> */}
+					<img src={calender} alt="img1" />
+					<img src={alert} alt="img1" />
+					<img className="profile" src={profile} alt="profile-img" />
+					{/* </div> */}
 				</div>
 			</div>
 		</>
