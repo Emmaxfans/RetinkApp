@@ -57,6 +57,16 @@
 
 .nav-sub3 img{
 width: 75px;
+animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .sub1{
