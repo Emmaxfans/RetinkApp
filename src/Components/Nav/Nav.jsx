@@ -1,6 +1,6 @@
 import "./Nav.css";
 import alert from "../../assets/Iconss/alert.svg";
-import search from "../../assets/Iconss/search.svg";
+// import search from "../../assets/Iconss/search.svg";
 import c20 from "../../assets/Iconss/c20.svg";
 import calender from "../../assets/Iconss/calender.svg";
 import profile from "../../assets/Iconss/profile.svg";
