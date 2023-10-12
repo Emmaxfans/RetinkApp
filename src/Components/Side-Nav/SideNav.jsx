@@ -20,7 +20,7 @@ const SideNav = () => {
 					src={isOpen ? close : menu}
 					alt="nav-toggle"
 					className="icon"
-					onClick={toggleNavbar}
+					// onClick={toggleNavbar}
 				/>
 
 				<a href="#">

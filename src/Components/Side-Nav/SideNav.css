@@ -165,7 +165,7 @@
 
       
     .side-nav.side-nav-active {
-      display: block;
+      display: none;
       /* position: sticky; */
       background-color: rgba(117, 77, 232, 1);
       height: 100vh;
