@@ -3,7 +3,7 @@ import search from "../../assets/Iconss/search1.svg";
 import alert from "../../assets/Iconss/alert1.svg";
 import c20 from "../../assets/Iconss/c201.svg";
 import calender from "../../assets/Iconss/calender1.svg";
-import profile from "../../assets/Iconss/profile1.svg";
+// import profile from "../../assets/Iconss/profile1.svg";
 import filter1 from "../../assets/Iconss/filter.svg";
 import close from "../../assets/Iconss/close1.svg";
 
@@ -41,7 +41,7 @@ const Nav = () => {
 				<div className="nav-div2">
 					<img src={calender} alt="img1" />
 					<img src={alert} alt="img1" />
-					<img className="profile" src={profile} alt="profile-img" />
+					<img className="profile" src={alert} alt="profile-img" />
 					{/* </div> */}
 				</div>
 			</div>
