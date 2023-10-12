@@ -30,7 +30,7 @@
 
 .hero1-sub2 {
 	position: absolute;
-	top: 50px;
+	top: 121px;
 	/* left: 70px; */
 	left: 45%;
 }
@@ -60,7 +60,7 @@
 
 .hero2-sub1 {
 	position: absolute;
-	top: 51px;
+	top: 122px;
 	/* right: 70px; */
 	/* left: 60px; */
 	width: 456.65px;
@@ -103,7 +103,7 @@
 
 .hero2-sub3 {
 	position: absolute;
-	top: 60px;
+	top: 120px;
 	right: 50px;
 	width: 170px;
 	height: 100px;
@@ -135,7 +135,7 @@
 
 .hero2-sub4 {
 	position: absolute;
-	top: 240px;
+	top: 310px;
 	left: 85%;
 	width: 100px;
 	height: 100px;
