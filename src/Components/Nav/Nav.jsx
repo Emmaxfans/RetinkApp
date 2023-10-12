@@ -32,9 +32,7 @@ const Nav = () => {
 						{/* <Button /> */}
 					</div>
 
-					<div className="nav-sub3">
-						<img src={c20} alt="c20" />
-					</div>
+					<div className="nav-sub3">{/* <img src={c20} alt="c20" /> */}</div>
 				</div>
 
 				{/* <div className="div-2"> */}
