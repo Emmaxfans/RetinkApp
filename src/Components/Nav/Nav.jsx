@@ -1,5 +1,5 @@
 import "./Nav.css";
-import alert from "../../assets/Icons/alert.svg";
+// import alert from "../../assets/Icons/alert.svg";
 import search from "../../assets/Icons/search.svg";
 import c20 from "../../assets/Icons/c20.svg";
 import calender from "../../assets/Icons/calender.svg";
@@ -33,7 +33,7 @@ const Nav = () => {
 
 				<div className="nav-div2">
 					<img src={calender} alt="img1" />
-					<img src={alert} alt="img1" />
+					{/* <img src={alert} alt="img1" /> */}
 					<img src={profile} alt="profile-img" />
 				</div>
 			</div>
