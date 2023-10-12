@@ -1,11 +1,11 @@
 import "./Nav.css";
-import alert from "../../assets/Iconss/alert.svg";
-// import search from "../../assets/Iconss/search.svg";
-import c20 from "../../assets/Iconss/c20.svg";
-import calender from "../../assets/Iconss/calender.svg";
-import profile from "../../assets/Iconss/profile.svg";
-import filter1 from "../../assets/Iconss/filter1.svg";
-import close from "../../assets/Iconss/close2.svg";
+import alert from "../../assets/Icons/alert.svg";
+import search from "../../assets/Icons/search.svg";
+import c20 from "../../assets/Icons/c20.svg";
+import calender from "../../assets/Icons/calender.svg";
+import profile from "../../assets/Icons/profile.svg";
+import filter1 from "../../assets/Icons/filter1.svg";
+import close from "../../assets/Icons/close2.svg";
 
 import Button from "../Button/Button";
 

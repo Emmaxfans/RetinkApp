@@ -1,7 +1,7 @@
 import "./Hero.css";
-import cube from "../../assets/Iconss/cube.svg";
-import blend from "../../assets/Iconss/blend.svg";
-import circle from "../../assets/Iconss/circle.svg";
+import cube from "../../assets/Icons/cube.svg";
+import blend from "../../assets/Icons/blend.svg";
+import circle from "../../assets/Icons/circle.svg";
 
 const Hero = () => {
 	return (
