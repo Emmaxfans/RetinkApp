@@ -1,6 +1,6 @@
 import "./Nav.css";
 import alert from "../../assets/Iconss/alert.svg";
-// import search from "../../assets/Iconss/search.svg";
+import search from "../../assets/Iconss/search.svg";
 import c20 from "../../assets/Iconss/c20.svg";
 import calender from "../../assets/Iconss/calender.svg";
 import profile from "../../assets/Iconss/profile.svg";
@@ -16,7 +16,7 @@ const Nav = () => {
 				<div className="nav-div1">
 					<div className="nav-sub1">
 						<div className="sub1">
-							{/* <img src={search} alt="search-button" /> */}
+							<img src={search} alt="search-button" />
 							<p>Search for templates, projects, etc</p>
 							{/* <div className="imgx"> */}
 							<img src={filter1} alt="filter-button" />
