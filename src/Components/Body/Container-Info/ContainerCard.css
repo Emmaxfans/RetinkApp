@@ -86,7 +86,14 @@
 }
 
 @media screen and  (min-width: 280px) and (max-width: 480px){
+  .container-card {
+    padding: 0 10px;
+  }
   .container-card h2{
     margin-top: 50px;
+  }
+
+  .container-card p{
+    font-size: 15px;
   }
 }
