@@ -37,12 +37,12 @@ const Nav = () => {
 					</div>
 				</div>
 
-				{/* <div className="div-2"> */}
-				<div className="nav-div2">
-					<img src={calender} alt="img1" />
-					<img src={alert} alt="img1" />
-					<img className="profile" src={profile} alt="profile-img" />
-					{/* </div> */}
+				<div className="div-2">
+					<div className="nav-div2">
+						<img src={calender} alt="img1" />
+						<img src={alert} alt="img1" />
+						<img className="profile" src={profile} alt="profile-img" />
+					</div>
 				</div>
 			</div>
 		</>
