@@ -1,7 +1,12 @@
+import img1 from "../../../assets/Iconss/pen.svg";
+import img2 from "../../../assets/Iconss/arrow.svg";
+import img3 from "../../../assets/Iconss/basil.svg";
+import img4 from "../../../assets/Iconss/text.svg";
+
 const dataSet1 = [
 	{
-		img1: "src/assets/Iconss/pen.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img1,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Blog writng",
@@ -11,8 +16,8 @@ const dataSet1 = [
 		classname_img2: "img-prop2",
 	},
 	{
-		img1: "src/assets/Iconss/basil.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img3,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Product description",
@@ -22,8 +27,8 @@ const dataSet1 = [
 	},
 
 	{
-		img1: "src/assets/Iconss/text.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img4,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Article writer",
@@ -34,8 +39,8 @@ const dataSet1 = [
 	},
 
 	{
-		img1: "src/assets/Iconss/pen.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img1,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Blog writng",
@@ -48,8 +53,8 @@ const dataSet1 = [
 
 export const dataSet2 = [
 	{
-		img1: "src/assets/Iconss/pen.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img1,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Blog writng",
@@ -59,8 +64,8 @@ export const dataSet2 = [
 		classname_img2: "img-prop2",
 	},
 	{
-		img1: "src/assets/Iconss/basil.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img3,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Product description",
@@ -70,8 +75,8 @@ export const dataSet2 = [
 	},
 
 	{
-		img1: "src/assets/Iconss/text.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img4,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Article writer",
@@ -81,8 +86,8 @@ export const dataSet2 = [
 		classname_img2: "img-prop2",
 	},
 	{
-		img1: "src/assets/Iconss/pen.svg",
-		img2: "src/assets/Iconss/arrow.svg",
+		img1: img3,
+		img2: img2,
 		alt1: "image1",
 		alt2: "image2",
 		title: "Blog writng",

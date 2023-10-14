@@ -113,6 +113,8 @@ animation: bounce 1s infinite alternate;
 
 @media screen and (max-width: 920px){
     .nav{
+        position: absolute;
+        margin-bottom: 0;
         box-shadow: none;
     }
 
@@ -211,7 +213,7 @@ animation: bounce 1s infinite alternate;
     }
 }
 
-@media screen and (min-width: 620px) and (max-width: 820px){
+@media screen and (min-width: 501px) and (max-width: 850px){
     .nav{
         /* flex: none; */
         position: absolute;
