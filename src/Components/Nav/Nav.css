@@ -206,9 +206,9 @@ animation: bounce 1s infinite alternate;
 
     .profile{
         position: absolute;
-        top: -270px;
-        height: 80px;
-        right: 0;
+        top: -277px;
+        height: 90px;
+        right: -10px;
         z-index: 150;
     }
 }
@@ -242,6 +242,7 @@ animation: bounce 1s infinite alternate;
     .nav-div2 img:not(:nth-child(3)){
         display: none;
     }
+
 
     .profile{
         position: absolute;

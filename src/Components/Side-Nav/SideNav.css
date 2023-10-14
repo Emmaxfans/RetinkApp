@@ -163,12 +163,6 @@
       z-index: 150;
   }
 
-  .profile{
-    top: -277px;
-    height: 90px;
-    right: -10px;
-  }
-
    .side-nav-active .icon{
         display: flex;
         position: absolute;

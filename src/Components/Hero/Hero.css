@@ -59,12 +59,12 @@
 }
 
 .hero2-sub1 {
-	position: absolute;
-	top: 122px;
-	/* right: 70px; */
-	/* left: 60px; */
-	width: 456.65px;
-	/* height: 180px; */
+	position: relative;
+	top: 100px;
+}
+
+.blend-img{
+	width: 100%;
 }
 
 .hero2-sub1 img {

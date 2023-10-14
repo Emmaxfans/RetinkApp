@@ -20,9 +20,9 @@ const Hero = () => {
 				</div>
 
 				<div className="hero2">
-					{/* <div className="hero2-sub1"> */}
-					<img className="hero2-sub1" src={blend} alt="blend" />
-					{/* </div> */}
+					<div className="hero2-sub1">
+						<img className="blend-img" src={blend} alt="blend" />
+					</div>
 					<div className="hero2-sub2">
 						<p>
 							You should have more engagement by 6pm today, try posting then. 📆{" "}
