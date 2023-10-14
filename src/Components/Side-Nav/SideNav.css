@@ -164,7 +164,9 @@
   }
 
   .profile{
-    top: -275px;
+    top: -277px;
+    height: 90px;
+    right: -10px;
   }
 
    .side-nav-active .icon{
