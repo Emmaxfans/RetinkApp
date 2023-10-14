@@ -34,8 +34,11 @@ const Hero = () => {
 					</div>
 
 					<div className="hero2-sub3">
-						<label> Zara ventures </label>
-						<input type="text" />
+						<select id="option-icon">
+							<option disabled selected>
+								Zara Ventures
+							</option>
+						</select>
 					</div>
 					<img className="hero2-sub4" src={circle} alt="circle" />
 				</div>

@@ -103,27 +103,30 @@
 
 .hero2-sub3 {
 	position: absolute;
-	top: 120px;
+	top: 150px;
 	right: 50px;
-	width: 170px;
-	height: 100px;
-}
-
-.hero2-sub3 input {
 	border-radius: 5px;
+	padding: 8px 10px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.hero2-sub3 select {
 	border: none;
-	padding: 10px 5px;
+	outline: none;
 }
 
-.hero2-sub3 label {
-	position: relative;
-	top: 27px;
-	left: 30px;
-}
+/* #option-icon option:disabled {
+	color: aquamarine;
+  } */
 
-.hero2-sub3 label::after {
-	content: url(../../assets/Iconss/ArrowDown.svg);
-	margin-left: 10px;
+#option-icon {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	/* background-color: #ffffff; */
+    background: url('../../assets/Iconss/ArrowDown.svg') no-repeat right ; 
+    padding-right: 20px; 
 }
 
 /* .hero2-sub4{
@@ -257,18 +260,16 @@
 
 	.hero2-sub3 {
 		position: absolute;
-		top: 5px;
-		left: 30%;
-		width: 170px;
-		height: auto;
+		top: 25px;
+		right: 35%;
+		border-radius: 5px;
+		padding: 8px 10px;
+		background-color: #ffffff;
+		text-align: center;
 	}
 
 	.hero-button{
 		display: none;
-	}
-
-	.hero2-sub3 input{
-		padding: 13px 5px;
 	}
 
 	.hero1-sub1 p {
@@ -334,10 +335,6 @@
 		display: none;
 	}
 
-	.hero2-sub3 input{
-		padding: 13px 5px;
-	}
-
 	.hero1-sub1 p {
 		font-size: 15px;
 	}
@@ -389,10 +386,12 @@
 
 .hero2-sub3 {
     position: absolute;
-    top: 5px;
-    right: 170px;
-    width: 50px;
-    height: 100px;
+    top: 25px;
+    right: 30%;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    text-align: center;
 }
 
 /* .hero1-sub img{

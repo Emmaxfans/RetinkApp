@@ -1,8 +1,6 @@
 import React from "react";
 import "./ContainerCard.css";
 import dataSet1, { dataSet2 } from "./Containerdata";
-import img2 from "../../../assets/Iconss/arrow.svg";
-import img3 from "../../../assets/Iconss/basil.svg";
 
 const ContainerCard = () => {
 	return (
