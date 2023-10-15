@@ -68,16 +68,19 @@ animation: bounce 1s infinite alternate;
     border: 1px solid black;
     border-radius: 5px;
   
-}
-
-.sub1 img:nth-last-child(-n+2) {
-    /* margin-left: 100px; */
-  }
-  
+} 
 
 .sub1 img{
     height: 25px;
-    padding-top: 10px;
+    padding-top: 7px;
+}
+
+.nav-img1{
+    padding-left: 10px;
+}
+
+.nav-img2{
+    padding-left: 10%;
 }
 
 .imgx{
@@ -89,7 +92,7 @@ animation: bounce 1s infinite alternate;
 
 .sub1 p{
     margin-top: 12px;
-    /* width: 60%; */
+    width: 70%;
 }
 
 .div-2{

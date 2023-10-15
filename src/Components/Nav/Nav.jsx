@@ -16,10 +16,10 @@ const Nav = () => {
 				<div className="nav-div1">
 					<div className="nav-sub1">
 						<div className="sub1">
-							<img src={search} alt="search-button" />
+							<img className="nav-img1" src={search} alt="search-button" />
 							<p>Search for templates, projects, etc</p>
 							{/* <div className="imgx"> */}
-							<img src={filter1} alt="filter-button" />
+							<img className="nav-img2" src={filter1} alt="filter-button" />
 							<img src={close} alt="close-button" />
 							{/* </div> */}
 						</div>
