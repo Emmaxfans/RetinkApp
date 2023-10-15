@@ -177,9 +177,9 @@
 	}
 
 	.hero2-sub1 {
-		width: 320px;
+		/* width: 320px; */
 		/* top: 0px; */
-		left: 20%;
+		/* left: 20%; */
 	}
 
 	.hero1-sub2 {
@@ -199,7 +199,7 @@
 	.hero2-sub3 {
 		position: absolute;
 		top: 5px;
-		left: 30%;
+		left: 38%;
 		width: 170px;
 		height: auto;
 	}
