@@ -117,7 +117,7 @@ animation: bounce 1s infinite alternate;
     padding-top: 20px ;
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 850px){
     .nav{
         position: absolute;
         margin-bottom: 0;
@@ -140,12 +140,13 @@ animation: bounce 1s infinite alternate;
         display: none;
     }
 
-    .nav-sub3{
-        display: none;
+    .nav-div2 {
+        /* display: none; */
+        background-color: transparent;
     }
 
-    .nav-div2{
-        background-color: transparent;
+    .nav-sub3{
+        display: none;
     }
 
     .nav-div2 img:not(:nth-child(3)){
@@ -162,6 +163,11 @@ animation: bounce 1s infinite alternate;
         width: 100%;
         margin-bottom: 0px;
         box-shadow: none;
+    }
+
+    .div-2{
+        width: auto;
+        padding: 0;
     }
 
     .nav-div1{
@@ -188,10 +194,6 @@ animation: bounce 1s infinite alternate;
         padding: 0 20px;
     }
 
-    .nav-div2{
-        background-color: transparent;
-    }
-
     .sub1{
         position: absolute;
         width: 90%;
@@ -210,11 +212,20 @@ animation: bounce 1s infinite alternate;
         display: none;
     }
 
+    /* .nav-div2 {
+        position: relative;
+        top: -375%;
+        left: 0%;
+        height: auto;
+        background-color: transparent;
+        z-index: 200;
+    } */
+
     .profile{
         position: absolute;
-        top: -277px;
-        height: 90px;
-        right: -10px;
+        top: -420%;
+        height: 85px;
+        right: 0px;
         z-index: 150;
     }
 }
@@ -253,7 +264,7 @@ animation: bounce 1s infinite alternate;
 
     .profile{
         position: absolute;
-        top: -270px;
+        top: -285px;
         height: 80px;
         right: 0;
         z-index: 150;
@@ -277,4 +288,14 @@ animation: bounce 1s infinite alternate;
         /* display: flex; */
         /* margin-left: 15px; */
     }
+}
+
+@media screen and (min-width: 851px) and (max-width: 920px){
+    /* .profile{
+        position: absolute;
+        top: -5px;
+        height: 80px;
+        right: 0;
+        z-index: 150;
+    } */
 }

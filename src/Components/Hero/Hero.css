@@ -260,7 +260,7 @@
 
 	.hero2-sub3 {
 		position: absolute;
-		top: 25px;
+		top: 1.5%;
 		right: 35%;
 		border-radius: 5px;
 		padding: 4px 10px;
@@ -359,10 +359,7 @@
 	.sub1{
 		top: 0;
 	}
-	.hero2-sub1 {
-    width: 200px;
-    top: 0px;
-    left: 30%;
+	.hero1-sub2 img{
 }
 
 .hero2-sub2 {
@@ -386,7 +383,7 @@
 
 .hero2-sub3 {
     position: absolute;
-    top: 25px;
+    top: 1.5%;
     right: 30%;
     border-radius: 5px;
     padding: 5px 5px;
@@ -398,6 +395,23 @@
 	top: -50px;
 } */
 }
+
+@media screen and (min-width: 850px) and (max-width: 920px){
+	.hero2-sub2 {
+		position: absolute;
+		top: 240px;
+		/* left: 55%; */
+		padding: 0 10px;
+		width: 380px;
+	}
+
+	.hero2-sub2 p {
+		width: 380px;
+		font-size: 13px;
+	}
+}
+
+
 
 
 
