@@ -4,11 +4,11 @@ import dataSet1, { dataSet2 } from "./Containerdata";
 
 const ContainerCard = () => {
 	return (
-		<div className="container-card">
+		<div className="container-card ">
 			<h2>Social Media</h2>
 			<div className="row">
 				{dataSet1.map((items, index) => (
-					<div key={index} className="container-contents">
+					<div key={index} className="container-contents" data-aos="slide-up">
 						<div className="header-img">
 							<img src={items.img1} alt={items.alt1} />
 							<img src={items.img2} alt={items.alt2} />
@@ -22,7 +22,7 @@ const ContainerCard = () => {
 			<h2>Social Media</h2>
 			<div className="row">
 				{dataSet2.map((items, index) => (
-					<div key={index} className="container-contents">
+					<div key={index} className="container-contents" data-aos="slide-up">
 						<div className="header-img">
 							<img src={items.img1} alt={items.alt1} />
 							<img src={items.img2} alt={items.alt2} />
