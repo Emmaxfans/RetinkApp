@@ -4,7 +4,7 @@ import dataSet1, { dataSet2 } from "./Containerdata";
 
 const ContainerCard = () => {
 	return (
-		<div className="container-card ">
+		<div className="container-card">
 			<h2>Social Media</h2>
 			<div className="row">
 				{dataSet1.map((items, index) => (
