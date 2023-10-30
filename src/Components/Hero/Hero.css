@@ -24,15 +24,16 @@
 	/* font-weight: 500; */
 }
 .hero1-sub1 p {
+	width: 350px;
 	font-family: Raleway;
 	font-size: 20px;
 	font-weight: 500;
-	line-height: 23px;
+	/* line-height: 23px; */
 }
 
 .hero1-sub2 {
 	position: absolute;
-	top: 121px;
+	top: 122px;
 	/* left: 70px; */
 	left: 45%;
 }
@@ -290,12 +291,7 @@
 	}
 
 	.hero1-sub1 p {
-		font-size: 15px;
-	}
-
-	/* Rotate the image by a specific angle */
-	.hero2-sub4 img {
-		
+		font-size: 13px;
 	}
 }
 
